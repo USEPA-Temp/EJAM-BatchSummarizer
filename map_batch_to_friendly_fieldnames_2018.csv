@@ -1,0 +1,174 @@
+oldnames,newnames,gdbfieldname,vartype,varcategory,longname,gdblongname,example,order0,order1,order2
+OBJECTID,OBJECTID,OBJECTID,geo,geo,OBJECTID,OBJECTID,1,0,0,1
+facid,FACID,facid,geo,geo,Facility ID,Facility ID,NEI99999,0,0,2
+name,name,name,geo,geo,Name,Name,xyz facility,0,0,3
+lat,lat,lat,geo,geo,Latitude,Latitude,21.2,0,0,4
+lon,lon,lon,geo,geo,Longitude,Longitude,-158.2,0,0,5
+_ACSTOTPOP,pop,_ACSTOTPOP,geo,geo,Population,total population (ACS2015),5205,0,0,6
+_ACSIPOVBAS,povknownratio,_ACSIPOVBAS,raw,Demographic,Population for whom poverty status is determined,Total Population for whom Poverty Status is Determined,0.19,1,2,1
+_ACSTOTHH,hhlds,_ACSTOTHH,raw,Demographic,Households (for linguistic isolation),Total Households,0.19,1,2,1
+_ACSEDUCBAS,age25up,_ACSEDUCBAS,raw,Demographic,Population 25 years and over,Total Population Age 25 up,0.19,1,2,1
+_PRE1960,pre1960,_PRE1960,raw,Demographic,count of housing units built before 1960,Houses Built Pre 1960,0.19,1,2,1
+_buff,radius.miles,_buff,geo,geo,Size of buffer as radius of circular buffer,Buffer distance,3 miles,0,0,7
+_stabbr,ST,_stabbr,geo,geo,State abbreviation,State Abbreviation,HI,0,0,8
+_statename,statename,_statename,geo,geo,State name,State Name,Hawaii,0,0,9
+_region,REGION,_region,geo,geo,EPA Region number,EPA region number,9,0,0,10
+_RAW_D_INDEX,VSI.eo,_RAW_D_INDEX,raw,Demographic,Demographic Index,Raw data for Demographic Index,0.41,1,1,1
+_N_D_INDEX,us.avg.VSI.eo,_N_D_INDEX,usavg,Demographic,Demographic Index,National average for Demographic Index,0.35,1,1,2
+_R_D_INDEX,region.avg.VSI.eo,_R_D_INDEX,regionavg,Demographic,Demographic Index,Regional average for Demographic Index,0.46,1,1,3
+_S_D_INDEX,state.avg.VSI.eo,_S_D_INDEX,stateavg,Demographic,Demographic Index,State average for Demographic Index,0.51,1,1,4
+_N_D_INDEX_PER,pctile.VSI.eo,_N_D_INDEX_PER,uspctile,Demographic,Demographic Index,National percentile for Demographic Index,66,1,1,5
+_R_D_INDEX_PER,region.pctile.VSI.eo,_R_D_INDEX_PER,regionpctile,Demographic,Demographic Index,Regional percentile for Demographic Index,45,1,1,6
+_S_D_INDEX_PER,state.pctile.VSI.eo,_S_D_INDEX_PER,statepctile,Demographic,Demographic Index,State percentile for Demographic Index,17,1,1,7
+_RAW_D_INCOME,pctlowinc,_RAW_D_INCOME,raw,Demographic,Low Income Population,Raw data for Low Income Population,0.19,1,2,1
+_N_D_INCOME,us.avg.pctlowinc,_N_D_INCOME,usavg,Demographic,Low Income Population,National average for Low Income Population,0.34,1,2,2
+_R_D_INCOME,region.avg.pctlowinc,_R_D_INCOME,regionavg,Demographic,Low Income Population,Regional average for Low Income Population,0.35,1,2,3
+_S_D_INCOME,state.avg.pctlowinc,_S_D_INCOME,stateavg,Demographic,Low Income Population,State average for Low Income Population,0.25,1,2,4
+_N_D_INCOME_PER,pctile.pctlowinc,_N_D_INCOME_PER,uspctile,Demographic,Low Income Population,National percentile for Low Income Population,29,1,2,5
+_R_D_INCOME_PER,region.pctile.pctlowinc,_R_D_INCOME_PER,regionpctile,Demographic,Low Income Population,Regional percentile for Low Income Population,29,1,2,6
+_S_D_INCOME_PER,state.pctile.pctlowinc,_S_D_INCOME_PER,statepctile,Demographic,Low Income Population,State percentile for Low Income Population,41,1,2,7
+_RAW_D_MINOR,pctmin,_RAW_D_MINOR,raw,Demographic,Minority Population,Raw data for Minority Population,0.63,1,3,1
+_N_D_MINOR,us.avg.pctmin,_N_D_MINOR,usavg,Demographic,Minority Population,National average for Minority Population,0.36,1,3,2
+_R_D_MINOR,region.avg.pctmin,_R_D_MINOR,regionavg,Demographic,Minority Population,Regional average for Minority Population,0.57,1,3,3
+_S_D_MINOR,state.avg.pctmin,_S_D_MINOR,stateavg,Demographic,Minority Population,State average for Minority Population,0.77,1,3,4
+_N_D_MINOR_PER,pctile.pctmin,_N_D_MINOR_PER,uspctile,Demographic,Minority Population,National percentile for Minority Population,77,1,3,5
+_R_D_MINOR_PER,region.pctile.pctmin,_R_D_MINOR_PER,regionpctile,Demographic,Minority Population,Regional percentile for Minority Population,55,1,3,6
+_S_D_MINOR_PER,state.pctile.pctmin,_S_D_MINOR_PER,statepctile,Demographic,Minority Population,State percentile for Minority Population,21,1,3,7
+_RAW_D_LING,pctlingiso,_RAW_D_LING,raw,Demographic,Linguistically Isolated Population,Raw data for Linguistically Isolated Population,0.03,1,4,1
+_N_D_LING,us.avg.pctlingiso,_N_D_LING,usavg,Demographic,Linguistically Isolated Population,National average for Linguistically Isolated Population,0.05,1,4,2
+_R_D_LING,region.avg.pctlingiso,_R_D_LING,regionavg,Demographic,Linguistically Isolated Population,Regional average for Linguistically Isolated Population,0.1,1,4,3
+_S_D_LING,state.avg.pctlingiso,_S_D_LING,stateavg,Demographic,Linguistically Isolated Population,State average for Linguistically Isolated Population,0.06,1,4,4
+_N_D_LING_PER,pctile.pctlingiso,_N_D_LING_PER,uspctile,Demographic,Linguistically Isolated Population,National percentile for Linguistically Isolated Population,64,1,4,5
+_R_D_LING_PER,region.pctile.pctlingiso,_R_D_LING_PER,regionpctile,Demographic,Linguistically Isolated Population,Regional percentile for Linguistically Isolated Population,36,1,4,6
+_S_D_LING_PER,state.pctile.pctlingiso,_S_D_LING_PER,statepctile,Demographic,Linguistically Isolated Population,State percentile for Linguistically Isolated Population,50,1,4,7
+_RAW_D_LESSHS,pctlths,_RAW_D_LESSHS,raw,Demographic,Population with Less Than High School Education,Raw data for Population with Less Than High School Education,0.07,1,5,1
+_N_D_LESSHS,us.avg.pctlths,_N_D_LESSHS,usavg,Demographic,Population with Less Than High School Education,National average for Population with Less Than High School Education,0.15,1,5,2
+_R_D_LESSHS,region.avg.pctlths,_R_D_LESSHS,regionavg,Demographic,Population with Less Than High School Education,Regional average for Population with Less Than High School Education,0.19,1,5,3
+_S_D_LESSHS,state.avg.pctlths,_S_D_LESSHS,stateavg,Demographic,Population with Less Than High School Education,State average for Population with Less Than High School Education,0.1,1,5,4
+_N_D_LESSHS_PER,pctile.pctlths,_N_D_LESSHS_PER,uspctile,Demographic,Population with Less Than High School Education,National percentile for Population with Less Than High School Education,32,1,5,5
+_R_D_LESSHS_PER,region.pctile.pctlths,_R_D_LESSHS_PER,regionpctile,Demographic,Population with Less Than High School Education,Regional percentile for Population with Less Than High School Education,29,1,5,6
+_S_D_LESSHS_PER,state.pctile.pctlths,_S_D_LESSHS_PER,statepctile,Demographic,Population with Less Than High School Education,State percentile for Population with Less Than High School Education,42,1,5,7
+_RAW_D_UNDER5,pctunder5,_RAW_D_UNDER5,raw,Demographic,Population under Age 5,Raw data for Population under Age 5,0.07,1,6,1
+_N_D_UNDER5,us.avg.pctunder5,_N_D_UNDER5,usavg,Demographic,Population under Age 5,National average for Population under Age 5,0.07,1,6,2
+_R_D_UNDER5,region.avg.pctunder5,_R_D_UNDER5,regionavg,Demographic,Population under Age 5,Regional average for Population under Age 5,0.07,1,6,3
+_S_D_UNDER5,state.avg.pctunder5,_S_D_UNDER5,stateavg,Demographic,Population under Age 5,State average for Population under Age 5,0.06,1,6,4
+_N_D_UNDER5_PER,pctile.pctunder5,_N_D_UNDER5_PER,uspctile,Demographic,Population under Age 5,National percentile for Population under Age 5,63,1,6,5
+_R_D_UNDER5_PER,region.pctile.pctunder5,_R_D_UNDER5_PER,regionpctile,Demographic,Population under Age 5,Regional percentile for Population under Age 5,58,1,6,6
+_S_D_UNDER5_PER,state.pctile.pctunder5,_S_D_UNDER5_PER,statepctile,Demographic,Population under Age 5,State percentile for Population under Age 5,67,1,6,7
+_RAW_D_OVER64,pctover64,_RAW_D_OVER64,raw,Demographic,Population over Age 64,Raw data for Population over Age 64,0.07,1,7,1
+_N_D_OVER64,us.avg.pctover64,_N_D_OVER64,usavg,Demographic,Population over Age 64,National average for Population over Age 64,0.13,1,7,2
+_R_D_OVER64,region.avg.pctover64,_R_D_OVER64,regionavg,Demographic,Population over Age 64,Regional average for Population over Age 64,0.12,1,7,3
+_S_D_OVER64,state.avg.pctover64,_S_D_OVER64,stateavg,Demographic,Population over Age 64,State average for Population over Age 64,0.14,1,7,4
+_N_D_OVER64_PER,pctile.pctover64,_N_D_OVER64_PER,uspctile,Demographic,Population over Age 64,National percentile for Population over Age 64,22,1,7,5
+_R_D_OVER64_PER,region.pctile.pctover64,_R_D_OVER64_PER,regionpctile,Demographic,Population over Age 64,Regional percentile for Population over Age 64,31,1,7,6
+_S_D_OVER64_PER,state.pctile.pctover64,_S_D_OVER64_PER,statepctile,Demographic,Population over Age 64,State percentile for Population over Age 64,16,1,7,7
+_RAW_E_TRAFFIC,traffic.score,_RAW_E_TRAFFIC,raw,Environmental,Traffic Proximity and Volume (daily traffic count/distance to road),Raw data for Traffic Proximity and Volume (daily traffic count/distance to road),130,2,1,1
+_N_E_TRAFFIC,us.avg.traffic.score,_N_E_TRAFFIC,usavg,Environmental,Traffic Proximity and Volume (daily traffic count/distance to road),National average for Traffic Proximity and Volume (daily traffic count/distance to road),110,2,1,2
+_R_E_TRAFFIC,region.avg.traffic.score,_R_E_TRAFFIC,regionavg,Environmental,Traffic Proximity and Volume (daily traffic count/distance to road),Regional average for Traffic Proximity and Volume (daily traffic count/distance to road),190,2,1,3
+_S_E_TRAFFIC,state.avg.traffic.score,_S_E_TRAFFIC,stateavg,Environmental,Traffic Proximity and Volume (daily traffic count/distance to road),State average for Traffic Proximity and Volume (daily traffic count/distance to road),280,2,1,4
+_N_E_TRAFFIC_PER,pctile.traffic.score,_N_E_TRAFFIC_PER,uspctile,Environmental,Traffic Proximity and Volume (daily traffic count/distance to road),National percentile for Traffic Proximity and Volume (daily traffic count/distance to road),80,2,1,5
+_R_E_TRAFFIC_PER,region.pctile.traffic.score,_R_E_TRAFFIC_PER,regionpctile,Environmental,Traffic Proximity and Volume (daily traffic count/distance to road),Regional percentile for Traffic Proximity and Volume (daily traffic count/distance to road),63,2,1,6
+_S_E_TRAFFIC_PER,state.pctile.traffic.score,_S_E_TRAFFIC_PER,statepctile,Environmental,Traffic Proximity and Volume (daily traffic count/distance to road),State percentile for Traffic Proximity and Volume (daily traffic count/distance to road),64,2,1,7
+_RAW_E_LEAD,pctpre1960,_RAW_E_LEAD,raw,Environmental,Lead Paint Indicator (% pre-1960s housing),Raw data for Lead Paint Indicator (% pre-1960s housing),0.056,2,2,1
+_N_E_LEAD,us.avg.pctpre1960,_N_E_LEAD,usavg,Environmental,Lead Paint Indicator (% pre-1960s housing),National average for Lead Paint Indicator (% pre-1960s housing),0.3,2,2,2
+_R_E_LEAD,region.avg.pctpre1960,_R_E_LEAD,regionavg,Environmental,Lead Paint Indicator (% pre-1960s housing),Regional average for Lead Paint Indicator (% pre-1960s housing),0.26,2,2,3
+_S_E_LEAD,state.avg.pctpre1960,_S_E_LEAD,stateavg,Environmental,Lead Paint Indicator (% pre-1960s housing),State average for Lead Paint Indicator (% pre-1960s housing),0.19,2,2,4
+_N_E_LEAD_PER,pctile.pctpre1960,_N_E_LEAD_PER,uspctile,Environmental,Lead Paint Indicator (% pre-1960s housing),National percentile for Lead Paint Indicator (% pre-1960s housing),26,2,2,5
+_R_E_LEAD_PER,region.pctile.pctpre1960,_R_E_LEAD_PER,regionpctile,Environmental,Lead Paint Indicator (% pre-1960s housing),Regional percentile for Lead Paint Indicator (% pre-1960s housing),36,2,2,6
+_S_E_LEAD_PER,state.pctile.pctpre1960,_S_E_LEAD_PER,statepctile,Environmental,Lead Paint Indicator (% pre-1960s housing),State percentile for Lead Paint Indicator (% pre-1960s housing),36,2,2,7
+_RAW_E_PM25,pm,_RAW_E_PM25,raw,Environmental,Particulate Matter (PM 2.5 in ug/m3),Raw data for Particulate Matter (PM 2.5 in ug/m3),0,2,3,1
+_N_E_PM25,us.avg.pm,_N_E_PM25,usavg,Environmental,Particulate Matter (PM 2.5 in ug/m3),National average for Particulate Matter (PM 2.5 in ug/m3),10.7,2,3,2
+_R_E_PM25,region.avg.pm,_R_E_PM25,regionavg,Environmental,Particulate Matter (PM 2.5 in ug/m3),Regional average for Particulate Matter (PM 2.5 in ug/m3),10.3,2,3,3
+_S_E_PM25,state.avg.pm,_S_E_PM25,stateavg,Environmental,Particulate Matter (PM 2.5 in ug/m3),State average for Particulate Matter (PM 2.5 in ug/m3),N/A,2,3,4
+_N_E_PM25_PER,pctile.pm,_N_E_PM25_PER,uspctile,Environmental,Particulate Matter (PM 2.5 in ug/m3),National percentile for Particulate Matter (PM 2.5 in ug/m3),-1,2,3,5
+_R_E_PM25_PER,region.pctile.pm,_R_E_PM25_PER,regionpctile,Environmental,Particulate Matter (PM 2.5 in ug/m3),Regional percentile for Particulate Matter (PM 2.5 in ug/m3),-1,2,3,6
+_S_E_PM25_PER,state.pctile.pm,_S_E_PM25_PER,statepctile,Environmental,Particulate Matter (PM 2.5 in ug/m3),State percentile for Particulate Matter (PM 2.5 in ug/m3),100,2,3,7
+_RAW_E_O3,o3,_RAW_E_O3,raw,Environmental,Ozone (ppb),Raw data for Ozone (ppb),0,2,4,1
+_N_E_O3,us.avg.o3,_N_E_O3,usavg,Environmental,Ozone (ppb),National average for Ozone (ppb),46.3,2,4,2
+_R_E_O3,region.avg.o3,_R_E_O3,regionavg,Environmental,Ozone (ppb),Regional average for Ozone (ppb),52.4,2,4,3
+_S_E_O3,state.avg.o3,_S_E_O3,stateavg,Environmental,Ozone (ppb),State average for Ozone (ppb),N/A,2,4,4
+_N_E_O3_PER,pctile.o3,_N_E_O3_PER,uspctile,Environmental,Ozone (ppb),National percentile for Ozone (ppb),-1,2,4,5
+_R_E_O3_PER,region.pctile.o3,_R_E_O3_PER,regionpctile,Environmental,Ozone (ppb),Regional percentile for Ozone (ppb),-1,2,4,6
+_S_E_O3_PER,state.pctile.o3,_S_E_O3_PER,statepctile,Environmental,Ozone (ppb),State percentile for Ozone (ppb),100,2,4,7
+_RAW_E_CANCER,cancer,_RAW_E_CANCER,raw,Environmental,NATA Air Toxics Cancer Risk (risk per MM),Raw data for NATA Air Toxics Cancer Risk (risk per MM),25,2,5,1
+_N_E_CANCER,us.avg.cancer,_N_E_CANCER,usavg,Environmental,NATA Air Toxics Cancer Risk (risk per MM),National average for NATA Air Toxics Cancer Risk (risk per MM),49,2,5,2
+_R_E_CANCER,region.avg.cancer,_R_E_CANCER,regionavg,Environmental,NATA Air Toxics Cancer Risk (risk per MM),Regional average for NATA Air Toxics Cancer Risk (risk per MM),69,2,5,3
+_S_E_CANCER,state.avg.cancer,_S_E_CANCER,stateavg,Environmental,NATA Air Toxics Cancer Risk (risk per MM),State average for NATA Air Toxics Cancer Risk (risk per MM),26,2,5,4
+_N_E_CANCER_PER,pctile.cancer,_N_E_CANCER_PER,uspctile,Environmental,NATA Air Toxics Cancer Risk (risk per MM),National percentile for NATA Air Toxics Cancer Risk (risk per MM),6,2,5,5
+_R_E_CANCER_PER,region.pctile.cancer,_R_E_CANCER_PER,regionpctile,Environmental,NATA Air Toxics Cancer Risk (risk per MM),Regional percentile for NATA Air Toxics Cancer Risk (risk per MM),3,2,5,6
+_S_E_CANCER_PER,state.pctile.cancer,_S_E_CANCER_PER,statepctile,Environmental,NATA Air Toxics Cancer Risk (risk per MM),State percentile for NATA Air Toxics Cancer Risk (risk per MM),47,2,5,7
+_RAW_E_DIESEL,dpm,_RAW_E_DIESEL,raw,Environmental,NATA Diesel PM (ug/m3),Raw data for NATA Diesel PM (ug/m3),0.166,2,6,1
+_N_E_DIESEL,us.avg.dpm,_N_E_DIESEL,usavg,Environmental,NATA Diesel PM (ug/m3),National average for NATA Diesel PM (ug/m3),0.824,2,6,2
+_R_E_DIESEL,region.avg.dpm,_R_E_DIESEL,regionavg,Environmental,NATA Diesel PM (ug/m3),Regional average for NATA Diesel PM (ug/m3),1.2,2,6,3
+_S_E_DIESEL,state.avg.dpm,_S_E_DIESEL,stateavg,Environmental,NATA Diesel PM (ug/m3),State average for NATA Diesel PM (ug/m3),0.205,2,6,4
+_N_E_DIESEL_PER,pctile.dpm,_N_E_DIESEL_PER,uspctile,Environmental,NATA Diesel PM (ug/m3),National percentile for NATA Diesel PM (ug/m3),23,2,6,5
+_R_E_DIESEL_PER,region.pctile.dpm,_R_E_DIESEL_PER,regionpctile,Environmental,NATA Diesel PM (ug/m3),Regional percentile for NATA Diesel PM (ug/m3),12,2,6,6
+_S_E_DIESEL_PER,state.pctile.dpm,_S_E_DIESEL_PER,statepctile,Environmental,NATA Diesel PM (ug/m3),State percentile for NATA Diesel PM (ug/m3),68,2,6,7
+_RAW_E_RESP,resp,_RAW_E_RESP,raw,Environmental,NATA Respiratory Hazard Index,Raw data for NATA Respiratory Hazard Index,0.54,2,7,1
+_N_E_RESP,us.avg.resp,_N_E_RESP,usavg,Environmental,NATA Respiratory Hazard Index,National average for NATA Respiratory Hazard Index,2.3,2,7,2
+_R_E_RESP,region.avg.resp,_R_E_RESP,regionavg,Environmental,NATA Respiratory Hazard Index,Regional average for NATA Respiratory Hazard Index,3.5,2,7,3
+_S_E_RESP,state.avg.resp,_S_E_RESP,stateavg,Environmental,NATA Respiratory Hazard Index,State average for NATA Respiratory Hazard Index,0.68,2,7,4
+_N_E_RESP_PER,pctile.resp,_N_E_RESP_PER,uspctile,Environmental,NATA Respiratory Hazard Index,National percentile for NATA Respiratory Hazard Index,6,2,7,5
+_R_E_RESP_PER,region.pctile.resp,_R_E_RESP_PER,regionpctile,Environmental,NATA Respiratory Hazard Index,Regional percentile for NATA Respiratory Hazard Index,3,2,7,6
+_S_E_RESP_PER,state.pctile.resp,_S_E_RESP_PER,statepctile,Environmental,NATA Respiratory Hazard Index,State percentile for NATA Respiratory Hazard Index,50,2,7,7
+_RAW_E_TSDF,proximity.tsdf,_RAW_E_TSDF,raw,Environmental,TSDF Proximity (facility count/km distance),Raw data for Hazardous Waste Proximity (facility count/km distance),0.22,2,9,1
+_N_E_TSDF,us.avg.proximity.tsdf,_N_E_TSDF,usavg,Environmental,TSDF Proximity (facility count/km distance),National average for Hazardous Waste Proximity (facility count/km distance),0.054,2,9,2
+_R_E_TSDF,region.avg.proximity.tsdf,_R_E_TSDF,regionavg,Environmental,TSDF Proximity (facility count/km distance),Regional average for Hazardous Waste Proximity (facility count/km distance),0.12,2,9,3
+_S_E_TSDF,state.avg.proximity.tsdf,_S_E_TSDF,stateavg,Environmental,TSDF Proximity (facility count/km distance),State average for Hazardous Waste Proximity (facility count/km distance),0.092,2,9,4
+_N_E_TSDF_PER,pctile.proximity.tsdf,_N_E_TSDF_PER,uspctile,Environmental,TSDF Proximity (facility count/km distance),National percentile for Hazardous Waste Proximity (facility count/km distance),96,2,9,5
+_R_E_TSDF_PER,region.pctile.proximity.tsdf,_R_E_TSDF_PER,regionpctile,Environmental,TSDF Proximity (facility count/km distance),Regional percentile for Hazardous Waste Proximity (facility count/km distance),89,2,9,6
+_S_E_TSDF_PER,state.pctile.proximity.tsdf,_S_E_TSDF_PER,statepctile,Environmental,TSDF Proximity (facility count/km distance),State percentile for Hazardous Waste Proximity (facility count/km distance),90,2,9,7
+_RAW_E_RMP,proximity.rmp,_RAW_E_RMP,raw,Environmental,RMP Proximity (facility count/km distance),Raw data for RMP Proximity (facility count/km distance),0.96,2,10,1
+_N_E_RMP,us.avg.proximity.rmp,_N_E_RMP,usavg,Environmental,RMP Proximity (facility count/km distance),National average for RMP Proximity (facility count/km distance),0.31,2,10,2
+_R_E_RMP,region.avg.proximity.rmp,_R_E_RMP,regionavg,Environmental,RMP Proximity (facility count/km distance),Regional average for RMP Proximity (facility count/km distance),0.41,2,10,3
+_S_E_RMP,state.avg.proximity.rmp,_S_E_RMP,stateavg,Environmental,RMP Proximity (facility count/km distance),State average for RMP Proximity (facility count/km distance),0.18,2,10,4
+_N_E_RMP_PER,pctile.proximity.rmp,_N_E_RMP_PER,uspctile,Environmental,RMP Proximity (facility count/km distance),National percentile for RMP Proximity (facility count/km distance),92,2,10,5
+_R_E_RMP_PER,region.pctile.proximity.rmp,_R_E_RMP_PER,regionpctile,Environmental,RMP Proximity (facility count/km distance),Regional percentile for RMP Proximity (facility count/km distance),89,2,10,6
+_S_E_RMP_PER,state.pctile.proximity.rmp,_S_E_RMP_PER,statepctile,Environmental,RMP Proximity (facility count/km distance),State percentile for RMP Proximity (facility count/km distance),98,2,10,7
+_RAW_E_NPL,proximity.npl,_RAW_E_NPL,raw,Environmental,NPL Proximity (site count/km distance),Raw data for Superfund Proximity (site count/km distance),0.073,2,11,1
+_N_E_NPL,us.avg.proximity.npl,_N_E_NPL,usavg,Environmental,NPL Proximity (site count/km distance),National average for Superfund Proximity (site count/km distance),0.096,2,11,2
+_R_E_NPL,region.avg.proximity.npl,_R_E_NPL,regionavg,Environmental,NPL Proximity (site count/km distance),Regional average for Superfund Proximity (site count/km distance),0.11,2,11,3
+_S_E_NPL,state.avg.proximity.npl,_S_E_NPL,stateavg,Environmental,NPL Proximity (site count/km distance),State average for Superfund Proximity (site count/km distance),0.092,2,11,4
+_N_E_NPL_PER,pctile.proximity.npl,_N_E_NPL_PER,uspctile,Environmental,NPL Proximity (site count/km distance),National percentile for Superfund Proximity (site count/km distance),64,2,11,5
+_R_E_NPL_PER,region.pctile.proximity.npl,_R_E_NPL_PER,regionpctile,Environmental,NPL Proximity (site count/km distance),Regional percentile for Superfund Proximity (site count/km distance),59,2,11,6
+_S_E_NPL_PER,state.pctile.proximity.npl,_S_E_NPL_PER,statepctile,Environmental,NPL Proximity (site count/km distance),State percentile for Superfund Proximity (site count/km distance),65,2,11,7
+_RAW_E_NPDES,proximity.npdes,_RAW_E_NPDES,raw,Environmental,Water Discharger Proximity (count/km),Raw data for Wastewater Discharge Indicators (toxicity-weighted concentration/m distance),1.9,2,12,1
+_N_E_NPDES,us.avg.proximity.npdes,_N_E_NPDES,usavg,Environmental,Water Discharger Proximity (count/km),National average for Wastewater Discharge Indicators (toxicity-weighted concentration/m distance),0.25,2,12,2
+_R_E_NPDES,region.avg.proximity.npdes,_R_E_NPDES,regionavg,Environmental,Water Discharger Proximity (count/km),Regional average for Wastewater Discharge Indicators (toxicity-weighted concentration/m distance),0.19,2,12,3
+_S_E_NPDES,state.avg.proximity.npdes,_S_E_NPDES,stateavg,Environmental,Water Discharger Proximity (count/km),State average for Wastewater Discharge Indicators (toxicity-weighted concentration/m distance),0.33,2,12,4
+_N_E_NPDES_PER,pctile.proximity.npdes,_N_E_NPDES_PER,uspctile,Environmental,Water Discharger Proximity (count/km),National percentile for Wastewater Discharge Indicators (toxicity-weighted concentration/m distance),98,2,12,5
+_R_E_NPDES_PER,region.pctile.proximity.npdes,_R_E_NPDES_PER,regionpctile,Environmental,Water Discharger Proximity (count/km),Regional percentile for Wastewater Discharge Indicators (toxicity-weighted concentration/m distance),99,2,12,6
+_S_E_NPDES_PER,state.pctile.proximity.npdes,_S_E_NPDES_PER,statepctile,Environmental,Water Discharger Proximity (count/km),State percentile for Wastewater Discharge Indicators (toxicity-weighted concentration/m distance),98,2,12,7
+_N_P_TRAFFIC,pctile.EJ.DISPARITY.traffic.score.eo,_N_P_TRAFFIC,uspctile,EJ Index,EJ Index for Traffic Proximity and Volume,National percentile for EJ Index for Traffic Proximity and Volume,78,3,1,5
+_R_P_TRAFFIC,region.pctile.EJ.DISPARITY.traffic.score.eo,_R_P_TRAFFIC,regionpctile,EJ Index,EJ Index for Traffic Proximity and Volume,Regional percentile for EJ Index for Traffic Proximity and Volume,57,3,1,6
+_S_P_TRAFFIC,state.pctile.EJ.DISPARITY.traffic.score.eo,_S_P_TRAFFIC,statepctile,EJ Index,EJ Index for Traffic Proximity and Volume,State percentile for EJ Index for Traffic Proximity and Volume,45,3,1,7
+_N_P_LEAD,pctile.EJ.DISPARITY.pctpre1960.eo,_N_P_LEAD,uspctile,EJ Index,EJ Index for Lead Paint Indicator,National percentile for EJ Index for Lead Paint Indicator,69,3,2,5
+_R_P_LEAD,region.pctile.EJ.DISPARITY.pctpre1960.eo,_R_P_LEAD,regionpctile,EJ Index,EJ Index for Lead Paint Indicator,Regional percentile for EJ Index for Lead Paint Indicator,52,3,2,6
+_S_P_LEAD,state.pctile.EJ.DISPARITY.pctpre1960.eo,_S_P_LEAD,statepctile,EJ Index,EJ Index for Lead Paint Indicator,State percentile for EJ Index for Lead Paint Indicator,37,3,2,7
+_N_P_PM25,pctile.EJ.DISPARITY.pm.eo,_N_P_PM25,uspctile,EJ Index,EJ Index for Particulate Matter (PM 2.5),National percentile for EJ Index for Particulate Matter (PM 2.5),59,3,3,5
+_R_P_PM25,region.pctile.EJ.DISPARITY.pm.eo,_R_P_PM25,regionpctile,EJ Index,EJ Index for Particulate Matter (PM 2.5),Regional percentile for EJ Index for Particulate Matter (PM 2.5),36,3,3,6
+_S_P_PM25,state.pctile.EJ.DISPARITY.pm.eo,_S_P_PM25,statepctile,EJ Index,EJ Index for Particulate Matter (PM 2.5),State percentile for EJ Index for Particulate Matter (PM 2.5),100,3,3,7
+_N_P_O3,pctile.EJ.DISPARITY.o3.eo,_N_P_O3,uspctile,EJ Index,EJ Index for Ozone,National percentile for EJ Index for Ozone,59,3,4,5
+_R_P_O3,region.pctile.EJ.DISPARITY.o3.eo,_R_P_O3,regionpctile,EJ Index,EJ Index for Ozone,Regional percentile for EJ Index for Ozone,36,3,4,6
+_S_P_O3,state.pctile.EJ.DISPARITY.o3.eo,_S_P_O3,statepctile,EJ Index,EJ Index for Ozone,State percentile for EJ Index for Ozone,100,3,4,7
+_N_P_CANCER,pctile.EJ.DISPARITY.cancer.eo,_N_P_CANCER,uspctile,EJ Index,EJ Index for NATA Air Toxics Cancer Risk,National percentile for EJ Index for NATA Air Toxics Cancer Risk,64,3,5,5
+_R_P_CANCER,region.pctile.EJ.DISPARITY.cancer.eo,_R_P_CANCER,regionpctile,EJ Index,EJ Index for NATA Air Toxics Cancer Risk,Regional percentile for EJ Index for NATA Air Toxics Cancer Risk,40,3,5,6
+_S_P_CANCER,state.pctile.EJ.DISPARITY.cancer.eo,_S_P_CANCER,statepctile,EJ Index,EJ Index for NATA Air Toxics Cancer Risk,State percentile for EJ Index for NATA Air Toxics Cancer Risk,20,3,5,7
+_N_P_DIESEL,pctile.EJ.DISPARITY.dpm.eo,_N_P_DIESEL,uspctile,EJ Index,EJ Index for NATA Diesel PM,National percentile for EJ Index for NATA Diesel PM,61,3,6,5
+_R_P_DIESEL,region.pctile.EJ.DISPARITY.dpm.eo,_R_P_DIESEL,regionpctile,EJ Index,EJ Index for NATA Diesel PM,Regional percentile for EJ Index for NATA Diesel PM,37,3,6,6
+_S_P_DIESEL,state.pctile.EJ.DISPARITY.dpm.eo,_S_P_DIESEL,statepctile,EJ Index,EJ Index for NATA Diesel PM,State percentile for EJ Index for NATA Diesel PM,24,3,6,7
+_N_P_RESP,pctile.EJ.DISPARITY.resp.eo,_N_P_RESP,uspctile,EJ Index,EJ Index for NATA Respiratory Hazard Index,National percentile for EJ Index for NATA Respiratory Hazard Index,62,3,7,5
+_R_P_RESP,region.pctile.EJ.DISPARITY.resp.eo,_R_P_RESP,regionpctile,EJ Index,EJ Index for NATA Respiratory Hazard Index,Regional percentile for EJ Index for NATA Respiratory Hazard Index,38,3,7,6
+_S_P_RESP,state.pctile.EJ.DISPARITY.resp.eo,_S_P_RESP,statepctile,EJ Index,EJ Index for NATA Respiratory Hazard Index,State percentile for EJ Index for NATA Respiratory Hazard Index,21,3,7,7
+_N_P_TSDF,pctile.EJ.DISPARITY.proximity.tsdf.eo,_N_P_TSDF,uspctile,EJ Index,EJ Index for TSDF Proximity,National percentile for EJ Index for Hazardous Waste Proximity,86,3,9,5
+_R_P_TSDF,region.pctile.EJ.DISPARITY.proximity.tsdf.eo,_R_P_TSDF,regionpctile,EJ Index,EJ Index for TSDF Proximity,Regional percentile for EJ Index for Hazardous Waste Proximity,64,3,9,6
+_S_P_TSDF,state.pctile.EJ.DISPARITY.proximity.tsdf.eo,_S_P_TSDF,statepctile,EJ Index,EJ Index for TSDF Proximity,State percentile for EJ Index for Hazardous Waste Proximity,59,3,9,7
+_N_P_RMP,pctile.EJ.DISPARITY.proximity.rmp.eo,_N_P_RMP,uspctile,EJ Index,EJ Index for RMP Proximity,National percentile for EJ Index for RMP Proximity,81,3,10,5
+_R_P_RMP,region.pctile.EJ.DISPARITY.proximity.rmp.eo,_R_P_RMP,regionpctile,EJ Index,EJ Index for RMP Proximity,Regional percentile for EJ Index for RMP Proximity,65,3,10,6
+_S_P_RMP,state.pctile.EJ.DISPARITY.proximity.rmp.eo,_S_P_RMP,statepctile,EJ Index,EJ Index for RMP Proximity,State percentile for EJ Index for RMP Proximity,78,3,10,7
+_N_P_NPL,pctile.EJ.DISPARITY.proximity.npl.eo,_N_P_NPL,uspctile,EJ Index,EJ Index for NPL Proximity,National percentile for EJ Index for Superfund Proximity,74,3,11,5
+_R_P_NPL,region.pctile.EJ.DISPARITY.proximity.npl.eo,_R_P_NPL,regionpctile,EJ Index,EJ Index for NPL Proximity,Regional percentile for EJ Index for Superfund Proximity,53,3,11,6
+_S_P_NPL,state.pctile.EJ.DISPARITY.proximity.npl.eo,_S_P_NPL,statepctile,EJ Index,EJ Index for NPL Proximity,State percentile for EJ Index for Superfund Proximity,47,3,11,7
+_N_P_NPDES,pctile.EJ.DISPARITY.proximity.npdes.eo,_N_P_NPDES,uspctile,EJ Index,EJ Index for Water Discharger Proximity,National percentile for EJ Index for Wastewater Discharge Indicator,95,3,12,5
+_R_P_NPDES,region.pctile.EJ.DISPARITY.proximity.npdes.eo,_R_P_NPDES,regionpctile,EJ Index,EJ Index for Water Discharger Proximity,Regional percentile for EJ Index for Wastewater Discharge Indicator,94,3,12,6
+_S_P_NPDES,state.pctile.EJ.DISPARITY.proximity.npdes.eo,_S_P_NPDES,statepctile,EJ Index,EJ Index for Water Discharger Proximity,State percentile for EJ Index for Wastewater Discharge Indicator,87,3,12,7

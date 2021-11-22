@@ -1,0 +1,33 @@
+Package: batch.summarizer
+Title: Summarize Multiple Buffer Reports from the (nonpublic) Batch Tool for EJSCREEN 
+Description: This is a shiny app, developed as an R package. The
+    app displays summary stats and graphics for an uploaded file of raw results of
+    EJ (environmental justice) buffer analysis (from the EJSCREEN batch tool 
+    or from several manually saved csv buffer reports). EJSCREEN is public but the batch 
+    tool is not. The only relevant public tool or dataset is the example built into this 
+    demo. Uses R's shinyapps tools to demonstrate an interactive web-based app. 
+    For any imported/suggested packages not on CRAN, see http://ejanalysis.github.io
+Version: 1.0.0
+Date: 2020-01-01
+Imports:
+    shiny,
+    matrixStats,
+    data.table,
+    analyze.stuff,
+    Hmisc,
+    leaflet,
+    mapproj
+Suggests: 
+    sp, 
+    UScensus2010blocks
+URL: http://ejanalysis.github.io, https://github.com/ejanalysis/batch.summarizer, http://www.ejanalysis.com/
+BugReports: https://github.com/ejanalysis/batch.summarizer/issues
+Depends: R (>= 3.1.0)
+RoxygenNote: 7.1.1
+License: MIT + file LICENSE
+Repository: GitHub
+Author: info@ejanalysis.com
+Maintainer: info@ejanalysis.com <info@ejanalysis.com>
+NeedsCompilation: no
+LazyData: true
+Encoding: UTF-8
