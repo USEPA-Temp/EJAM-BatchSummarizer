@@ -1,6 +1,6 @@
 **batch.summarizer R package**
 
-This is a shiny app that will be turned into an R package.
+This is a shiny app (that was initially set up as an R package).
 
 The app displays summary stats and graphics for an uploaded file of raw results of EJ buffer analysis (from batch tool or from several manually saved csv buffer reports). The only relevant public tool or dataset is the example built into this demo. Uses R's shinyapps tools to demonstrate an interactive web-based app.
   
