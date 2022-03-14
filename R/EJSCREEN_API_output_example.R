@@ -3,7 +3,7 @@ EJSCREEN_API_output_example <- function(n=10, radius=1) {
   pts <- proxistat::testpoints_block2010(n)
   
   benchmark.start <- Sys.time()
-  outlist <- proxistat::bufferapi(pts$lon, lat=pts$lat, radius = radius)
+  outlist <- batch.summarizer::ejscreenapi(pts$lon, lat=pts$lat, radius = radius)
   benchmark.end <- Sys.time()
   
   # Format results as a single table
